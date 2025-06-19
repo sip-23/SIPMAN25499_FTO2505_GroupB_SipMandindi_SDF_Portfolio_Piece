@@ -55,55 +55,69 @@
         </article> -->
     </header>
 
-    <!-- Proficiency Bars Section-->
-    <section class="flex flex-col w-[318px] bg-[#FFFFFF] mx-auto rounded-xl py-[19px] mb-[15px]">
-        <div class="pl-[12px]">
-            <h2 class="font-poppins font-medium text-sm leading-[150%] tracking-normal align-middle text-base mb-[16px]">Proficiency</h2>
-            <!-- Levels -->
-            <ul class="flex justify-end justify-evenly font-poppins font-medium text-[10px] leading-[150%] tracking-normal align-middle mb-[16px]">
-                <li>Beginner</li>
-                <li>Intermediate</li>
-                <li>Advance*</li>
-            </ul>
-            <!-- Column bar graph -->
-            <div class="flex flex-col font-poppins font-medium text-[10px] leading-[104%] tracking-normal text-center align-middle">
-                <div class="flex flex-row pb-2 gap-4">
-                    <p class="text-[10px]">HTML + CSS</p>
-                    <button class="size-4 w-[50%] rounded-xl bg-[#4A8B70]"></button>
-                </div>
-                <div class="flex flex-row pb-2 gap-7">
-                    <p class=" text-[10px]">JavaScript</p>
-                    <button class="size-4 w-[30%] rounded-xl bg-[#4A8B70]"></button>
-                </div>
-                <div class="flex flex-row pb-2 gap-10">
-                    <p class=" text-[10px]">React.js</p>
-                    <button class="size-4 w-[10%] rounded-xl bg-[#4A8B70]"></button>
-                </div>
-                <div class="flex flex-row pb-2 gap-10">
-                    <p class="text-[10px]">Python</p>
-                    <button class="size-4 w-[60%] rounded-xl bg-[#4A8B70]"></button>
+    <!-- Profiency and Skills container -->
+    <div class="flex flex-col lg:flex-row min-w-[318px] max-w-[1440px] ">
+
+        <!-- Proficiency Bars Section-->
+        <section class="flex w-[318px] bg-[#FFFFFF] py-[16px] mb-[15px] mx-auto lg:mx-[63px] sm:w-[400px] sm:h-[300px] lg:max-w-3/8 lg:h-[429px] rounded-xl lg:rounded-[29px]">
+            <div class="flex-shrink-0 w-full p-4 sm:p-6 lg:p-8">
+                <h2 class="font-poppins font-medium text-sm leading-[150%] tracking-normal align-middle sm:text-base lg:text-[33px] mb-3 sm:mb-4 lg:mb-8">Proficiency</h2>
+                <!-- Levels -->
+                <ul class="flex grow justify-end gap-4 sm:gap-6 lg:gap-8 font-poppins font-medium text-[10px] sm:text-base leading-[150%] tracking-wide mb-[16px] lg:mb-[30px] ">
+                    <li>Beginner</li>
+                    <li>Intermediate</li>
+                    <li>Advance*</li>
+                </ul>
+                <!-- Column bar graph -->
+                <div class="space-y-2 sm:space-y-3 lg:space-y-6 flex flex-col font-poppins font-medium text-[10px] leading-[104%] tracking-normal">
+                    <div class="flex flex-row grow items-center gap-2 pb-2">
+                        <p class="text-[10px] sm:text-sm lg:text-base w-[80px] sm:w-[100px] ">HTML + CSS</p>
+                        <div class="flex-1 h-4 sm:h-6 w-full bg-gray-200 rounded-xl overflow-hidden">
+                            <div class="h-full w-[70%] rounded-xl bg-[#4A8B70]"></div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row grow items-center gap-2 pb-2">
+                        <p class=" text-[10px] sm:text-sm lg:text-base w-[80px] sm:w-[100px]">JavaScript</p>
+                        <div class="flex-1 h-4 grow sm:h-6 bg-gray-200 rounded-xl overflow-hidden">
+                            <div class="h-full w-[20%] rounded-xl bg-[#4A8B70]"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row grow items-center gap-2 pb-2">
+                        <p class=" text-[10px] sm:text-sm lg:text-base w-[80px] sm:w-[100px]">React.js</p>
+                        <div class="flex-1 h-4 grow sm:h-6 bg-gray-200 rounded-xl overflow-hidden">
+                            <div class="h-full w-[10%] rounded-xl bg-[#4A8B70]"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row grow  items-center gap-2 pb-2 ">
+                        <p class="text-[10px] sm:text-sm lg:text-base w-[80px] sm:w-[100px]">Python</p>
+                        <div class="flex-1 h-4 grow sm:h-6 bg-gray-200 rounded-xl overflow-hidden">
+                            <div class="h-full w-[80%] rounded-xl bg-[#4A8B70]"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section class="flex flex-col w-[318px] bg-[#FFFFFF] mx-auto rounded-xl pl-[12px] py-[19px] mb-[15px]">
-        <h2 class="font-poppins font-medium text-sm leading-[150%] tracking-normal align-middle text-base mb-[16px]" >Skills</h2> 
-        <div class="flex flex-row flex-wrap font-poppins gap-[10px] text-[10px] ">
-            <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px]">Software Development</button>
-            <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px]">Agile</button>
-            <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px]">UI Design</button>
-            <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px]">Problem Solving</button>
-            <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px]">Git And Version Control</button>
-            <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px]">Web Development</button>
-            <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px]">Team Collaboration</button>
-            <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px]">Fuctional Programming</button>
-            <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px]">Restful APIs</button>
-            <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px]">Data Analysis</button>
-            <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px]">Data Engineering</button>
-        </div>
-    </section>
+        <!-- Skills Section Scales from 318px to full remaining width ---->
+        <section class="flex-1 flex-col grow w-[318px] px-[12px] py-[16px] mb-[15px] mx-auto sm:w-[400px] sm:h-[300px] lg:max-w-5/8 lg:h-[429px] bg-[#FFFFFF] rounded-xl lg:rounded-[29px] sm:p-4 lg:p-6 lg:mr-[63px]">
+            <h2 class="font-poppins font-medium text-sm sm:text-base lg:text-2xl leading-[150%] tracking-normal align-middle  sm:text-base lg:text-[33px] mb-[16px] sm:mb-4 lg:mb-8 lg:mt-8" >Skills</h2>
+            <div class="flex flex-row flex-wrap lg:w-full font-poppins gap-2 sm:gap-3 text-[10px] lg:font-normal leading-[150%] tracking-normal sm:text-sm lg:text-base lg:w-[324px] lg:h-[55px] lg:gap-[24px] ">
+                <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px] sm:px-4 sm:py-2 sm:px-[24px] sm:py-[10px] whitespace-nowrap overflow-hidden text-ellipsis">Software Development</button>
+                <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px] sm:px-4 sm:py-2 sm:px-[24px] sm:py-[10px] whitespace-nowrap overflow-hidden text-ellipsis">Agile</button>
+                <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px] sm:px-4 sm:py-2 sm:px-[24px] sm:py-[10px] whitespace-nowrap overflow-hidden text-ellipsis">UI Design</button>
+                <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px] sm:px-4 sm:py-2 sm:px-[24px] sm:py-[10px] whitespace-nowrap overflow-hidden text-ellipsis">Problem Solving</button>
+                <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px] sm:px-4 sm:py-2 sm:px-[24px] sm:py-[10px] whitespace-nowrap overflow-hidden text-ellipsis">Git And Version Control</button>
+                <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px] sm:px-4 sm:py-2 sm:px-[24px] sm:py-[10px] whitespace-nowrap overflow-hidden text-ellipsis">Web Development</button>
+                <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px] sm:px-4 sm:py-2 sm:px-[24px] sm:py-[10px] whitespace-nowrap overflow-hidden text-ellipsis">Team Collaboration</button>
+                <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px] sm:px-4 sm:py-2 sm:px-[24px] sm:py-[10px] whitespace-nowrap overflow-hidden text-ellipsis">Fuctional Programming</button>
+                <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px] sm:px-4 sm:py-2 sm:px-[24px] sm:py-[10px] whitespace-nowrap overflow-hidden text-ellipsis">Restful APIs</button>
+                <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px] sm:px-4 sm:py-2 sm:px-[24px] sm:py-[10px] whitespace-nowrap overflow-hidden text-ellipsis">Data Analysis</button>
+                <button class="outline-none border-none bg-[#E7F0EC] rounded-[40px] px-[10px] py-[4px] sm:px-4 sm:py-2 sm:px-[24px] sm:py-[10px] whitespace-nowrap overflow-hidden text-ellipsis">Data Engineering</button>
+            </div>
+        </section>
+
+    </div>
 
     <!-- Projects Section -->
     <section class="flex flex-col w-[319px] bg-[#FFFFFF] mx-auto rounded-xl py-[19px] mb-[15px]">
