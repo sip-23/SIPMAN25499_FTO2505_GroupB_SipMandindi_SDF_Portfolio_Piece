@@ -66,7 +66,8 @@ The Project includes the following sections:
 
 ### 🎙️ Recorded Presentation 
 Please find a **5–10 minute** recording of my screen presentation of my project below: 
-
+[![License: MIT](https://www.loom.com/share/213fbeaf8ac548148e9d6aceecc61ccf?sid=83b70e51-87bd-4a50-8b1a-8690a20d16db)
+https://www.loom.com/share/213fbeaf8ac548148e9d6aceecc61ccf?sid=83b70e51-87bd-4a50-8b1a-8690a20d16db
 ---
 
 ## ✅ Configuration
