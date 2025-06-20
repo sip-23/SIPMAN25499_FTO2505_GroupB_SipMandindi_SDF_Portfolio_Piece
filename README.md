@@ -58,11 +58,11 @@ The Project includes the following sections:
 
 ##### **A Snapshot of the Mobile view**
 
-<img src="image/Screenshot of Mobile view.png" alt="Sips Mobile first view" width="300" height="250" >
+<img src="image/Screenshot of Mobile view.png" alt="Sips Mobile first view" width="300" height="500" >
 
 ##### **A Snapshot of the Desktop view**
 
-<img src="image/Screenshot of Desktop view.png.png" alt="Sips Mobile first view" width="300" height="250" >
+<img src="image/Screenshot of Desktop view.png" alt="Sips Mobile first view" width="300" height="500" >
 
 ### 🎙️ Recorded Presentation 
 Please find a **5–10 minute** recording of my screen presentation of your project below: 
