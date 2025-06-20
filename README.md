@@ -62,10 +62,10 @@ The Project includes the following sections:
 
 ##### **A Snapshot of the Desktop view**
 
-<img src="image/Screenshot of Desktop view.png" alt="Sips Mobile first view" width="300" height="500" >
+<img src="image/Screenshot of Desktop view.png" alt="Sips Mobile first view" width="300" height="700" >
 
 ### 🎙️ Recorded Presentation 
-Please find a **5–10 minute** recording of my screen presentation of your project below: 
+Please find a **5–10 minute** recording of my screen presentation of my project below: 
 
 ---
 
